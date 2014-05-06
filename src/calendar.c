@@ -117,7 +117,7 @@ static void calendar_request() {
   if (!iter)
     return;
 
-  dict_write_int8(iter, REQUEST_CALENDAR_KEY, -1);
+  dict_write_int8(iter, REQUEST_CALENDAR_KEY, 0);
   dict_write_uint8(iter, CLOCK_STYLE_KEY, clock_is_24h_style() ? CLOCK_STYLE_24H : CLOCK_STYLE_12H);
   dict_write_end(iter);
   g_count = 0;
