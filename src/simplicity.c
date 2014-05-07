@@ -516,9 +516,11 @@ void date_update() {
       strncpy(date_format, "%e", sizeof(date_format));
     }
   }
+  /*
   if (get_config_data()->week_no) {
     strncat(date_format, " (%W)", sizeof(date_format));
   }
+  */
 
   strftime(g_date_text, sizeof(g_date_text), date_format, tick_time);
   text_layer_set_text(text_date_layer, g_date_text);

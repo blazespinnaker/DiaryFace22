@@ -423,7 +423,7 @@ void minute_timer(int tm_min) {
 void second_timer() {
 
   // rotate display
-  rotate_tick++;
+  //rotate_tick++;
   if ((rotate_tick >= rotate_change) ||
       (initial_state && calendar_refresh_queued)) {
     if (calendar_refresh_queued) {
