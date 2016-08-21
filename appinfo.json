@@ -79,14 +79,14 @@
             }
         ]
     },
-    "longName": "Diary Face 2.2a",
+    "longName": "Diary Face 2.2.1a",
     "appKeys": {},
     "watchapp": {
         "watchface": true
     },
-    "versionLabel": "1.0.2",
-    "shortName": "Diary Face 2.2a",
-    "companyName": "Giba1",
+    "versionLabel": "1.0.2.1",
+    "shortName": "Diary Face 2.2.1a",
+    "companyName": "blaze",
     "capabilities": [
         ""
     ],
